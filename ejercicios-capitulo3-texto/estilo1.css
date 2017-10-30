@@ -1,7 +1,6 @@
 body {
     background-image: url("espacio.jpeg");
-    background-repeat: repeat-x;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     font-family: verdana, arial, sans-serif;
     margin: 10px;
 }
