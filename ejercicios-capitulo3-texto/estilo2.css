@@ -1,0 +1,35 @@
+body{
+background-color: #ffcccc;
+font-family: sans-serif;
+}
+
+h1{
+background-color: #ccccff;
+color: #0000cc;
+font-size: 200%;
+text-align: center;
+text-decoration: underline;
+text-transform: uppercase;
+}
+
+h2{
+background-color: #ccccff;
+color: #0000cc;
+font-size:125%;
+}
+p{
+text-align: justify;
+margin-left: 2em;
+margin-right: 2em;
+}
+strong,em{
+background-color: #cc00ff;
+}
+.importante{
+background-color: #C2C2CB;
+color: green;
+font-size: 150%;
+}
+abbr{
+text-decoration: underline;
+}
