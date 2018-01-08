@@ -1,0 +1,40 @@
+    <!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8_1</title>
+</head>
+<body>
+<h2>Datos del cliente</h2>
+    <form action="" method="get">
+    <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" />
+        <br/>
+        <label for="NIF">NIF:</label>
+        <input type="text" id="NIF" name="NIF" />
+    </p>
+    <p>
+        Tipo de habitación <br/>
+        <input type="radio" name="tipo" value="I" /> Individual <br/>
+        <input type="radio" name="tipo" value="D" checked="checked" /> Doble <br/>
+    </p>
+    <p>
+        Opciones <br/>
+        <input type="checkbox" name="desayuno" value="DH" id="desayuno" />
+        <label for="desayuno">Desayuno en la habitación</label>
+        <br/>
+        <input type="checkbox" name="jacuzzi" value="J" id="jacuzzi" />
+        <label for="jacuzzi">Jacuzzi</label>
+        <br/>
+        <input type="checkbox" name="Wi-Fi" value="W" id="wifi" checked="checked"/>
+        <label for="wifi">Wi-Fi</label>
+    </p>
+        <input type="submit" name="enviar" value="Enviar"/>
+        <input type="reset" name="borrar" value="Borrar"/>
+
+    </form>
+
+
+</body>
+</html>

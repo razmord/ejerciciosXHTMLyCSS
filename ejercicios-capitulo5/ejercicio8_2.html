@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 8_2"</title>
+</head>
+<body>
+
+<h2>Cosmética Profesional</h2>
+
+    <fieldset>
+        <legend>Formulario de pedido</legend>
+        <h3>Identificación</h3>
+        <fieldset>
+            <legend>Datos del cliente</legend>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" name="email" id="email"/>
+            <br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña"/>
+            <br/>
+            <em>Longitud minima 6 caracteres</em>
+            <br/>
+            <label for="direccion">Dirección de envío</label>
+            <input type="text" name="direccion" id="direccion"/>
+        </fieldset>
+        <fieldset>
+            <legend>Tipo de cliente</legend>
+            <input type="radio" name="tipo" value="P" id="particular"/>
+            <label for="particular">Particular</label>
+            <br/>
+            <input type="radio" name="tipo" value="E" checked="checked" id="empresa"/>
+            <label for="empresa">Empresa</label>
+        </fieldset>
+        <h3>Datos del pedido</h3>
+        <fieldset>
+            <legend>Datos del pedido</legend>
+            <label for="producto">Producto</label> <br/>
+            <select id="producto" name="producto" multiple="si" size="5">
+              <optgroup label="Solares">
+                <option value="Sol-01 Solar Indice 8" selected="selected">Sol-01 Solar Indice 8</option>
+                <option value="Sol-02 Solar Indice 15">Sol-02 Solar Indice 15</option>
+                <option value="Sol-03 Solar Indice 50">Sol-03 Solar Indice 50</option>
+              </optgroup>
+              <optgroup label="Labiales">
+                <option value="Lab-01 Gloss Red">Lab-01 Gloss Red</option>
+                <option value="Lab-02 Gloss Brown">Lab-02 Gloss Brown</option>
+              </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Observaciones</legend>
+            <textarea id="observacion" name="observacion" cols="40" rows="5">Escriba aqui su texto</textarea>
+            <br/>
+            <input type="checkbox" id="publi" value="si" checked="checked"/>
+            <label for="publi">Deseo recibir información sobre ofertas y novedades</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos Bancarios</legend>
+            <label for="tarjeta">Numero de tarjeta</label>
+            <input type="text" id="tarjeta" name="tarjeta" size="20" maxlength="20" />
+            <label for="caducidad">Caducidad</label>
+            <input type="text" id="caducidad" name="caducidad" size="5" maxlength="5" />
+        </fieldset>
+        <br/>
+        <input type="submit" name="enviar" value="Enviar"/>
+        <input type="reset" name="borrar" value="Borrar"/>
+    </fieldset>
+</body>
+</html>
